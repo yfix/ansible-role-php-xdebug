@@ -1,6 +1,6 @@
 # Ansible Role: PHP-XDebug
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-php-xdebug.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-php-xdebug)
+[![Build Status](https://travis-ci.org/yfix/ansible-role-php-xdebug.svg?branch=master)](https://travis-ci.org/yfix/ansible-role-php-xdebug)
 
 Installs PHP [XDebug](http://xdebug.org/) on Linux servers.
 
@@ -60,18 +60,10 @@ The maximimum function nesting level before Xdebug bails and throws a fatal exce
 
 ## Dependencies
 
-  - geerlingguy.php
+  - yfix.php
 
 ## Example Playbook
 
     - hosts: webservers
       roles:
-        - { role: geerlingguy.php-xdebug }
-
-## License
-
-MIT / BSD
-
-## Author Information
-
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+        - { role: yfix.php-xdebug }
